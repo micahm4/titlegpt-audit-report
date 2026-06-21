@@ -1,0 +1,22 @@
+/* index.css
+   TitleGPT.ai Audit Report UI
+   Minimal reset only â€” all component styles are inline in TitleGptAuditReport.tsx */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scroll for any anchor links in the report */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure Inter loads if available via system or Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
